@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If a development plan or proposal PDF is named, apply document-reader and keep page references. If a lot schedule spreadsheet is named, apply spreadsheet-reader.
-2. Qualify the opportunity with `references/developer-opportunity-qualification.md` (lot count, staging, timing, competing networks, power and comms room, contract status). Anticipate objections with `references/objection-handling.md`.
+2. Qualify the opportunity with `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/developer-opportunity-qualification.md` (lot count, staging, timing, competing networks, power and comms room, contract status). Anticipate objections with `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/objection-handling.md`.
 3. Produce exactly this template:
 
 ```

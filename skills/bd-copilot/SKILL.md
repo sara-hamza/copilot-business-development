@@ -1,7 +1,7 @@
 ---
 name: bd-copilot
 description: This skill should be used when a business development manager pastes developer or estate notes, a development plan, proposal text or meeting notes and asks for "an account brief", "prep me for the meeting", "draft the proposal", "write the follow-up" or "what should I ask them". Covers greenfield FTTP opportunities with developers. Never invents pricing. Local only; no CRM.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # BD Copilot

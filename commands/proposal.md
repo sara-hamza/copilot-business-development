@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Apply document-reader to any named PDF and spreadsheet-reader to any named lot schedule; cite pages and rows.
-2. Follow `references/proposal-structure.md` section by section. Use writing-helper developer tone: professional, confident, outcome-focused, no internal process detail. Use `references/objection-handling.md` to pre-empt objections inside the relevant sections rather than in a separate list.
+2. Follow `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/proposal-structure.md` section by section. Use writing-helper developer tone: professional, confident, outcome-focused, no internal process detail. Use `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/objection-handling.md` to pre-empt objections inside the relevant sections rather than in a separate list.
 3. Produce the proposal in this structure, each section as plain text with the UPPERCASE heading:
 
 ```

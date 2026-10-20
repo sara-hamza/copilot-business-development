@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Strip internal remarks, internal names the developer does not know, and any commercial figures that were not stated in the meeting from the external email.
-2. Use writing-helper developer tone and the follow-up structure in `references/proposal-structure.md` (section "Follow-up email"). Use `references/developer-opportunity-qualification.md` to spot gaps the meeting left open and turn them into internal actions or polite questions.
+2. Use writing-helper developer tone and the follow-up structure in `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/proposal-structure.md` (section "Follow-up email"). Use `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/developer-opportunity-qualification.md` to spot gaps the meeting left open and turn them into internal actions or polite questions.
 3. Produce exactly this template:
 
 ```

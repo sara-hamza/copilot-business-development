@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Determine the meeting type from a `meeting:` token or from context (intro, site visit, commercial, contract, project review). Use `references/developer-opportunity-qualification.md` to find the gaps the meeting should close and `references/objection-handling.md` for likely questions and our answers. Use `references/proposal-structure.md` to decide which materials are relevant.
+2. Determine the meeting type from a `meeting:` token or from context (intro, site visit, commercial, contract, project review). Use `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/developer-opportunity-qualification.md` to find the gaps the meeting should close and `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/objection-handling.md` for likely questions and our answers. Use `${CLAUDE_PLUGIN_ROOT}/skills/bd-copilot/references/proposal-structure.md` to decide which materials are relevant.
 3. Produce exactly this template:
 
 ```
